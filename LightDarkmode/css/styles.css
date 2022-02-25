@@ -1,0 +1,47 @@
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 16px 16px;
+
+  position: static;
+  width: 390px;
+  height: 250px;
+  left: 0px;
+  top: 44px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../images/headline.png");
+}
+
+.food-you-love {
+  position: static;
+  width: 358px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  color: #214966;
+}
+
+.food-love {
+  margin-left: 5px;
+}
